@@ -27,7 +27,12 @@ a {
     color: yellow;
 }
 
-.nav-link3:hover::before{
+.nav-link3:hover{
     color: green;
-    content: url("")
+
+}
+
+img{
+    width: 100px;
+    height: 60px;
 }
