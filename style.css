@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(162, 210, 255, 1);
+    padding: 0px 0px 0px 0px;
+}  
+
+header{
+    background-color:  rgba(255, 175, 204, 1); 
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link1:hover{
+ color: darkorange;
+}
+
+.nav-link2:hover{
+    color: yellow;
+}
+
+.nav-link3:hover::before{
+    color: green;
+    content: url("")
+}
